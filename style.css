@@ -103,6 +103,12 @@ This theme is uncopyrighted, free, and offered as is.
 	font-style: italic;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 body {
 	background: rgb(243,240,238);
