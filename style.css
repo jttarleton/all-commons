@@ -103,12 +103,10 @@ This theme is uncopyrighted, free, and offered as is.
 	font-style: italic;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+strong {
+  font-weight: 900;
 }
+
 
 body {
 	background: rgb(243,240,238);
@@ -116,20 +114,20 @@ body {
 	font: 21px 'crimson', bodyfont, serif;
 	color: #000000;
   line-height: 30px;
-
+	min-width:20em
 	}
 
 h1 {font-family: Helvetica, sans-serif; font-size: 1em; color:#333; font-weight:normal;  padding: 20px 0px 0px 0px;}
 h2 {font-family: 'Ostrich Sans', sans-serif; font-size: 45px; color:#000000; line-height:26px; font-weight:normal; padding: 28px 0px 0px 0px; text-align:center;}
-h3 {font-family: 'Ostrich Sans', sans-serif; font-size: 30px; color:#666; line-height: 15px; text-indent: 0px; padding: 3px 0px 0px 0px; text-align:center;}
+h3 {font-family: 'Ostrich Sans', sans-serif; font-size: 30px; color:#666; line-height: 15px; text-indent: 0px; padding: 3px 0px 0px 0px; -webkit-font-smoothing: subpixel-antialiased; text-align:center;}
 h4 {font-family: 'Ostrich Sans', sans-serif; font-size: 25px; color:#666; line-height: 15px; text-indent: 0px; padding: 7px 0px 0px 0px; text-align:center;}
 h5 {font-size: 9pt; color:#000000;}
 
-img{border:none; margin-top:20px}
+img{border:none;}
 img a{border:none;}
 blockquote{border-left:1px solid #A5ABAB; margin:0px; padding:0 12px 0 12px;}
 
-p{line-height: 30px; margin:auto; margin-top: 25px; margin-bottom: 33px; text-indent: 0px; text-align:center; text-align:justify; text-align-last:center;}
+p{margin-top: 10px; margin-bottom: 33px;}
 
 a {text-decoration: none;}
 a:link {color: #303030; text-decoration: none;}
@@ -143,11 +141,12 @@ ol{padding: .5em 0em 0em 3.2em;}
 li{line-height: 30px; padding: 6px 0 0 0;}
 
 
-#content {text-align: -webkit-center; text-align:justify; text-align-last:center; min-width: 20em; max-width: 32em; overflow: hidden; margin:auto; margin-top: 20px;}
+
+#content {/*text-align:justify; text-align-last:center;*/ text-align: center; text-align: -webkit-center; text-align:-moz-center; min-width: 20em; max-width: 32em; overflow: hidden; margin:0 auto}
 #content a:link {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #2E8B57;}
 #content a:visited {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #2E8B57;}
 #content a:hover {color: #2E8B57; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0; text-decoration: none;}
-
+#content .text{text-align:justify;}
 
 #footer {min-width: 20em; max-width: 32em; overflow: hidden; margin:auto; margin-bottom:28px;}
 #footer p{padding:0px 0; color: #666; font-size:13px; font-family:'Ostrich Sans', sans-serif; letter-spacing:4px; text-align:center;}
